@@ -5,9 +5,9 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 
 ### **The problems**
 
-* Questions 1 to 10: [Lists](Q01-10/Lists.md)
-* Questions 11 to 20: [Lists, continued](Q11-20/Lists-continued.md)
-* Questions 21 to 28: [Lists again]() - **WIP**
+* Questions 1 to 10: [Lists](Q01-10/lists.md)
+* Questions 11 to 20: [Lists, continued](Q11-20/lists-continued.md)
+* Questions 21 to 28: [Lists again](Q21-28/lists-again.md) - **WIP**
 * Questions 31 to 41: [Arithmetic]() - **WIP**
 * Questions 46 to 50: [Logic and codes]() - **WIP**
 * Questions 54A to 60: [Binary trees]() - **WIP**
