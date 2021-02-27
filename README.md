@@ -18,4 +18,7 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 * Questions 95 to 99: [Miscellaneous problems, continued]()
 
 
-**Note**: While I did check my solutions locally, I did not make use of property based testing such as QuickCheck so it is entirely possible that I made some mistakes somewhere. In case you find such errors, please create an issue and do let me know of them, thanks!
+**Notes**: 
+* While I did check my solutions locally, I did not make use of property based testing such as QuickCheck so it is entirely possible that I made some mistakes somewhere. In case you find such errors, please create an issue and do let me know of them, thanks!
+* I am currently starting my Haskell journey, and furthermore solving H-99 to polish my FP skills. Should you have any recommendations, please let me know!
+* This repository is currently a work in progress, therefore not all exercises have solutions!
