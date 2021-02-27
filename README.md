@@ -5,8 +5,8 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 
 ### **The problems**
 
-* Questions 1 to 10: [Lists](Q01-10\Lists.md)
-* Questions 11 to 20: [Lists, continued](Q11-20\Lists-continued.md)
+* Questions 1 to 10: [Lists](Q01-10/Lists.md)
+* Questions 11 to 20: [Lists, continued](Q11-20/Lists-continued.md)
 * Questions 21 to 28: [Lists again]()
 * Questions 31 to 41: [Arithmetic]()
 * Questions 46 to 50: [Logic and codes]()
