@@ -7,15 +7,15 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 
 * Questions 1 to 10: [Lists](Q01-10/Lists.md)
 * Questions 11 to 20: [Lists, continued](Q11-20/Lists-continued.md)
-* Questions 21 to 28: [Lists again]()
-* Questions 31 to 41: [Arithmetic]()
-* Questions 46 to 50: [Logic and codes]()
-* Questions 54A to 60: [Binary trees]()
-* Questions 61 to 69: [Binary trees, continued]()
-* Questions 70B to 73: [Multiway trees]()
-* Questions 80 to 89: [Graphs]()
-* Questions 90 to 94: [Miscellaneous problems]()
-* Questions 95 to 99: [Miscellaneous problems, continued]()
+* Questions 21 to 28: [Lists again]() - **WIP**
+* Questions 31 to 41: [Arithmetic]() - **WIP**
+* Questions 46 to 50: [Logic and codes]() - **WIP**
+* Questions 54A to 60: [Binary trees]() - **WIP**
+* Questions 61 to 69: [Binary trees, continued]() - **WIP**
+* Questions 70B to 73: [Multiway trees]() - **WIP**
+* Questions 80 to 89: [Graphs]() - **WIP**
+* Questions 90 to 94: [Miscellaneous problems]() - **WIP**
+* Questions 95 to 99: [Miscellaneous problems, continued]() - **WIP**
 
 
 **Notes**: 
