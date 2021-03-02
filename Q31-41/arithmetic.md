@@ -5,7 +5,11 @@
 **Solution(s)**:
 
 ```haskell
--- Did not attempt yet
+-- NOTE: This needs improvement (returns True for x = 1)
+-- NOTE: Improvement with Sieve of Eratosthenes
+
+isPrime :: Int -> Bool
+isPrime x = not $ any (\x -> x == True) [True | i <- [2..(x `div` 2)], x `mod` i == 0]
 ```
 
 # Problem 32
@@ -15,7 +19,12 @@
 **Solution(s)**:
 
 ```haskell
--- Did not attempt yet
+-- Note: Don't really see an alternative for this function
+
+gcd :: Int -> Int -> Int
+gcd a b | a == b = a
+        | a < b  = gcd a (b - a)
+        | a > b  = gcd (a - b) b 
 ```
 
 # Problem 33
@@ -25,7 +34,14 @@
 **Solution(s)**:
 
 ```haskell
--- Did not attempt yet
+gcd :: Int -> Int -> Int
+gcd a b | a == b = a
+        | a < b  = gcd a (b - a)
+        | a > b  = gcd (a - b) b 
+
+-- NOTE: Re-using Euclid's algorithm to test for co-"primeness"
+coprime :: Int -> Int -> Bool
+coprime = \x y -> gcd x y == 1
 ```
 
 # Problem 34
