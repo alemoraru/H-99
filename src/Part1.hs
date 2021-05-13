@@ -1,4 +1,4 @@
-module PartOne where
+module Part1 where
 
 data NestedList a = Elem a | List [NestedList a]
 
@@ -35,7 +35,26 @@ problem5 (x:xs) = problem5 xs ++ [x]
 problem6 :: Eq a => [a] -> Bool
 problem6 xs = (reverse xs) == xs
 
--- Transform a list, possibly holding lists as elements into a `flat' list by replacing each list with its elements (recursively).
+-- Transform a list, possibly holding lists as elements into a `flat' list by replacing each list with its elements (recursively)
 problem7 :: NestedList a -> [a]
 problem7 (Elem x)      = [x]
 problem7 (List (x:xs)) = problem7 x ++ problem7 (List xs)
+
+-- Eliminate consecutive duplicates of list elements
+problem8 :: Eq a => [a] -> [a]
+problem8 [] = []
+problem8 (x:xs) = x : problem8Helper xs x
+
+problem8Helper :: Eq a => [a] -> a -> [a]
+problem8Helper [] _        = []
+problem8Helper (x:xs) prev | x == prev = problem8Helper xs x
+                           | otherwise = x : problem8Helper xs x
+
+-- Pack consecutive duplicates of list elements into sublists.
+problem9 :: Eq a => [a] -> [[a]]
+problem9 []     = []
+problem9 (x:xs) = (x : takeWhile (==x) xs) : problem9 (dropWhile (==x) xs)
+
+-- Run-length encoding of a list
+problem10 :: Eq a => [a] -> [(Int, a)]
+problem10 xs = [(length x, head x) | x <- problem9 xs]
