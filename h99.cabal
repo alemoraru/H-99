@@ -25,7 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      PartOne
   other-modules:
       Paths_h99
   hs-source-dirs:
