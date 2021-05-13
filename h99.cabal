@@ -1,0 +1,57 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           h99
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/alemoraru/H-99#readme>
+homepage:       https://github.com/alemoraru/H-99#readme
+bug-reports:    https://github.com/alemoraru/H-99/issues
+author:         Alexandru Moraru
+maintainer:     A.R.Moraru@student.tudelft.nl
+copyright:      2021 Alexandru Moraru
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/alemoraru/H-99
+
+library
+  exposed-modules:
+      Part1
+      Part2
+      Part3
+      Part4
+  other-modules:
+      Paths_h99
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+      , containers >= 0.5.11 && < 0.7
+      , QuickCheck >= 2.13.2 && < 2.15
+      , hspec >= 2.0
+  default-language: Haskell2010
+
+test-suite h99-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_h99
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+      , containers >= 0.5.11 && < 0.7
+      , QuickCheck >= 2.13.2 && < 2.15
+      , hspec >= 2.0
+      , h99
+  default-language: Haskell2010

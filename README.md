@@ -5,10 +5,10 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 
 ### **The problems**
 
-* Questions 1 to 10: [Lists](Q01-10/lists.md)
-* Questions 11 to 20: [Lists, continued](Q11-20/lists-continued.md)
-* Questions 21 to 28: [Lists again](Q21-28/lists-again.md) - **WIP**
-* Questions 31 to 41: [Arithmetic]() - **WIP**
+* Questions 1 to 10: [Lists](Solutions/Q01-10/lists.md)
+* Questions 11 to 20: [Lists, continued](Solutions/Q11-20/lists-continued.md)
+* Questions 21 to 28: [Lists again](Solutions/Q21-28/lists-again.md)
+* Questions 31 to 41: [Arithmetic](Solutions/Q31-41/arithmetic.md)
 * Questions 46 to 50: [Logic and codes]() - **WIP**
 * Questions 54A to 60: [Binary trees]() - **WIP**
 * Questions 61 to 69: [Binary trees, continued]() - **WIP**
@@ -17,8 +17,22 @@ For most of the exercises I tried multiple solutions, either via list comprehens
 * Questions 90 to 94: [Miscellaneous problems]() - **WIP**
 * Questions 95 to 99: [Miscellaneous problems, continued]() - **WIP**
 
+### **How to navigate?**
+
+1. To find individual solutions and alternatives, navigate the above markdown tree structure. <br>
+2. Make sure you have `stack` installed on your machine
+3. To run the solutions locally and also test some of them, use the following commands in your terminal:
+
+```
+stack build
+```
+
+This will run the tests in the `test` folder:
+```
+stack test
+```
+
 
 **Notes**: 
-* While I did check my solutions locally, I did not make use of property based testing such as QuickCheck so it is entirely possible that I made some mistakes somewhere. In case you find such errors, please create an issue and do let me know of them, thanks!
-* I am currently starting my Haskell journey, and furthermore solving H-99 to polish my FP skills. Should you have any recommendations, please let me know!
+* While I did check my solutions locally, I did not make use of property based testing (**yet**) such as QuickCheck so it is entirely possible that I made some mistakes somewhere. In case you find such errors, please create an issue and do let me know of them, thanks!
 * This repository is currently a work in progress, therefore not all exercises have solutions!
